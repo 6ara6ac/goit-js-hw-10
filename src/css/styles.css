@@ -10,6 +10,9 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 #search-box {
@@ -17,4 +20,9 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0  ;
 }
