@@ -533,7 +533,7 @@ function getCountry(country) {
                 <ul>
                     <li><b>capital:</b> ${capital}</li>
                     <li><b>population:</b> ${population}</li>
-                    <li><b>languages:</b> ${Object.values(languages).join(", ")}</li>
+                    <li><b>languages:</b> ${languages.map((language)=>language.name).join(", ")}</li>
                 </ul>
                 `;
     }).join("");
